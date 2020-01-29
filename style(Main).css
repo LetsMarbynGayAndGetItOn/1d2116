@@ -25,17 +25,20 @@
       div.Mabel {
         position: absolute;
         top: 150px;
-        left: 300px;
+        left: 150px;
       }
 
       div.Yuta {
         position: absolute;
+        top: 150px;
+        width: 50%;
+        height: 50%;
       }
 
       div.Mervyn {
         position: absolute;
         top: 150px;
-        left: 800px;
+        right: 150px;
       }
 
      
