@@ -31,8 +31,9 @@
       div.Yuta {
         position: absolute;
         top: 150px;
+        margin-left: auto;
+        margin-right: auto;
         width: 50%;
-        height: 50%;
       }
 
       div.Mervyn {
