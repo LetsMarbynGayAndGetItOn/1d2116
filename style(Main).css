@@ -26,6 +26,8 @@
         position: absolute;
         top: 150px;
         left: 150px;
+        width: 35%;
+        height: auto;
       }
 
       div.Yuta {
@@ -40,6 +42,8 @@
         position: absolute;
         top: 150px;
         right: 150px;
+        width: 35%;
+        height: auto;
       }
 
      
