@@ -30,7 +30,7 @@
       }
 
       div.Yuta {
-        position: absolute;
+        position: block;
         top: 150px;
         margin-left: auto;
         margin-right: auto;
