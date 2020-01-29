@@ -40,8 +40,8 @@
       }
 
       figcaption {
-        position: absolute;
-        left: 10%;
+        position: relative;
+        left: 50%;
         font-family: Open Sans, bold;
         font-size: 35px;
     }
