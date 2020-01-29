@@ -14,33 +14,21 @@
         font-size: 20px;
       }
 
-      figcaption {
-          position: relative;
-          margin-left: auto;
-          margin-right: auto;
-          font-family: Open Sans, bold;
-          font-size: 35px;
+      {
+        box-sizing: border-box;
       }
-
-      div.Mabel {
-        position: absolute;
-        top: 150px;
-        left: 150px;
-        width: 35%;
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
       }
-
-      div.Yuta {
-        position: absolute;
-        top: 150px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      div.Mervyn {
-        position: absolute;
-        top: 150px;
-        right: 150px;
-        width: 35%;
+      
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
       }
 
      
