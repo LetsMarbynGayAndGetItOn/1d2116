@@ -39,4 +39,11 @@
           margin-right: 150px;
       }
 
+      figcaption {
+        position: absolute;
+        left: 100%;
+        font-family: Open Sans, bold;
+        font-size: 35px;
+    }
+
      
