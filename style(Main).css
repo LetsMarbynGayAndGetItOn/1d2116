@@ -15,6 +15,10 @@
         font-size: 20px;
       }
 
+      figcaption {
+          position: relative;
+      }
+
       div.Mervyn {
         position: absolute;
         top: 150px;
