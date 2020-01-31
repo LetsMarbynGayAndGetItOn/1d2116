@@ -26,8 +26,13 @@
         float: left;
         width: 33.33%;
         padding: 5px;
+        transition: all 0.2s ease-in-out;
       }
+
+      .column:hover {
+        transform: scale(0.9);
       
+      }
       
       .row::after {
         content: "";
@@ -36,7 +41,7 @@
       }
 
       div.Rescale {
-          margin-top: 150px;
+          margin-top: 75px;
           margin-bottom: 150px;
           margin-left: 300px;
           margin-right: 300px;
