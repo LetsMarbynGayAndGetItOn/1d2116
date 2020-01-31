@@ -2,9 +2,15 @@
     body {
         background: rgb(250,239,223);
       }
+      div {
+        width:   300px;
+        border: 15px;
+        padding: 50px;
+        margin: 20px;
+      }
       
       h1 {
-        color: dark blue;
+        color:blue;
         text-align: center;
         font-size: 60px;
         letter-spacing: 3px;
@@ -46,7 +52,7 @@
         font-family: Open Sans, bold;
         font-size: 18px;
         letter-spacing: 3px;
-        color: dark blue;
+        color:blue;
     }
 
      
