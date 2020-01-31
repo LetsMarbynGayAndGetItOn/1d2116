@@ -26,8 +26,12 @@
         float: left;
         width: 33.33%;
         padding: 5px;
+        transition: all 0.2s ease-in-out;
       }
-      
+
+      .column:hover {
+        transform: scale(0.8);
+        }
       
       .row::after {
         content: "";
