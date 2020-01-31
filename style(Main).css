@@ -4,9 +4,10 @@
       }
       
       h1 {
-        color: white;
+        color: dark blue;
         text-align: center;
         font-size: 35px;
+        font-family: 'Crete Round', serif;
       }
       
       p {
@@ -44,6 +45,7 @@
         font-family: Open Sans, bold;
         font-size: 18px;
         letter-spacing: 3px;
+        color: dark blue;
     }
 
      
