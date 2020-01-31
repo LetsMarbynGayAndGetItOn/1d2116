@@ -2,6 +2,12 @@
     body {
         background: rgb(250,239,223);
       }
+      div {
+        width:   300px;
+        border: 15px;
+        padding: 50px;
+        margin: 20px;
+      }
       
       h1 {
         color: dark blue;
