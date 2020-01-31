@@ -1,21 +1,25 @@
-
 body {
-    background: rgb(255,196,170);
+    background-color: rgb(255,196,170);
+    padding: 0; 
+    margin: 0;
   }
   
   h1 {
+    font-family: 'Nunito', sans-serif;
     color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 70px;
+  }
+
+  h2 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
   }
   
-  p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    letter-spacing: 3px
-  }
-  h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    letter-spacing: 3px
+
+  img {
+    float:left;
+    margin-bottom: 0px;
   }
