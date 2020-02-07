@@ -104,7 +104,7 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:50%
+  width:20%
   
   }
   
@@ -112,30 +112,30 @@ html {
   scroll-behavior: smooth;
 }
     #week-2 {
-      height: 500px;
+      height: 1500px;
       width:100%;
     }
     
     #week-3 {
-      height: 500px;
+      height: 1500px;
       width:100%;
     }
     
     #week-4 {
       background-color: #147631;
-      height: 500px;
+      height: 1500px;
       width:100%;
     }
     
     #week-5 {
       background-color: #115551;
-      height: 500px;
+      height: 1500px;
       width:100%;
     }
     
     #week-6 {
       background-color: #115351;
-      height: 500px;
+      height: 1500px;
       width:100%;
     }
             
