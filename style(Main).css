@@ -120,13 +120,11 @@ html {
   scroll-behavior: smooth;
 }
     #week-2 {
-      background-color: #123121;
       height: 500px;
       width:100%;
     }
     
     #week-3 {
-      background-color: #145341;
       height: 500px;
       width:100%;
     }
