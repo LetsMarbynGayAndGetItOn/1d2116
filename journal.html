@@ -45,4 +45,51 @@ function myFunction() {
 </script>
 
 
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title>Journal</title>
+   <link rel="stylesheet" type="text/css" href="style(Main).css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <!--What's this image is all about? Keep on adding the contents! 加油！-->
+    <h1>Journal</h1>
+      <div id="navbar">
+  		<a href="#week-2">Week 2</a>
+  		<a href="#week-3">Week 3</a>
+  		<a href="#week-4">Week 4</a>
+  		<a href="#week-5">Week 5</a>
+        <a href="#week-6">Week 6</a>
+      </div>
+    <div id="week-2">
+    <img src="https://i.ibb.co/r32f7yd/b6e7ef1e4e21cf07975e9e9b363b6dfc.jpg" alt="b6e7ef1e4e21cf07975e9e9b363b6dfc">
+    </div>
+    <div id="week-3">
+        <h1>Journal</h1>
+    </div>
+    <div id="week-4">
+    </div>
+    <div id="week-5">
+    </div>
+    <div id="week-6">
+    </div>
+    
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
  </body>
