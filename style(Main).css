@@ -15,6 +15,15 @@
       font-family: 'Crete Round', serif;
     }
     
+    h2 {
+      color:blue;
+      margin-top:0px;
+      text-align: center;
+      font-size: 40px;
+      letter-spacing: 3px;
+      font-family: 'Crete Round', serif;
+    }
+    
     p {
       font-family: 'Open Sans', sans-serif;
       font-size: 20px;
@@ -91,47 +100,52 @@
   padding-top: 60px;
 }
 
-img {
-display:block;
-margin-left:auto;
-margin-right:auto;
-max-width:100%;
-max-height:100%;
-
-}
-
-html {
-  scroll-behavior: smooth;
-}
-    #week-2 {
-      background-color: #123121;
-      height: 500px;
-      width:100%;
-    }
-    
-    #week-3 {
-      background-color: #145341;
-      height: 500px;
-      width:100%;
-    }
-    
-    #week-4 {
-      background-color: #147631;
-      height: 500px;
-      width:100%;
-    }
-    
-    #week-5 {
-      background-color: #115551;
-      height: 500px;
-      width:100%;
-    }
-    
-    #week-6 {
-      background-color: #115351;
-      height: 500px;
-      width:100%;
-    }
+iframe {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%
+  
+  }
+  
+  img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%
+  
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+      #week-2 {
+        height: 100%;
+        width:100%;
+      }
+      
+      #week-3 {
+        height: 16.67%;
+        width:100%;
+      }
+      
+      #week-4 {
+        background-color: #147631;
+        height: 16.67%;
+        width:100%;
+      }
+      
+      #week-5 {
+        background-color: #115551;
+        height: 16.67%;
+        width:100%;
+      }
+      
+      #week-6 {
+        background-color: #115351;
+        height: 16.67%;
+        width:100%;
+      }
             
        
     
