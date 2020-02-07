@@ -65,30 +65,34 @@
         font-family: Open Sans, bold;
         font-size: 18px;
         letter-spacing: 3px;
-        color:blue;
+        color:rgb(32,24,123);
     }
   
 
     #navbar {
       background-color: #eee;
-      width: 80px;
+      width: 100px;
       margin-top:0px;
       position:fixed;
+
       
     }
     
     #navbar a {
-  background-color: #eee;
-  color: black;
+  background-color: rgb(255,196,170);
+  color: rgb(250,239,223);
   display: block;
   padding: 12px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 	}
 	
     #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(32,24,123);
+  color: rgb(250,239,223);
 }
+
 
     .sticky {
   position: fixed;
