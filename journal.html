@@ -9,40 +9,5 @@
  <body>
     <!--What's this image is all about? Keep on adding the contents! 加油！-->
     <a href="https://ibb.co/YXBTRj0"><img src="https://i.ibb.co/r32f7yd/b6e7ef1e4e21cf07975e9e9b363b6dfc.jpg" alt="b6e7ef1e4e21cf07975e9e9b363b6dfc" border="0"></a>
-    let shef2;
-    let shef1;
     
-    let brightness = 0;
-    
-    function setup() {
-      createCanvas(400, 400);
-      shef2 = loadImage("images/shef2.jpg");
-      shef1 = loadImage("images/shef1.jpg");
-    }
-    
-    function draw() {
-      background(220);
-    imageMode(CENTER);
-      if(brightness == 1){
-    image(shef2, width/2, height/2, 300, 300)
-      }else{
-      image(shef1, width/2, height/2, 300, 300)
-    }
-    }
-      
-    function on() {
-        brightness = 1
-    }
-      
-    function off() {
-        brightness = 0
-    }
-      
-    function mousePressed(){
-        on()
-    }
-      
-    function mouseReleased(){
-        off()
-    }
 </body>
