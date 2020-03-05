@@ -24,8 +24,12 @@ h2 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 20px;
+  color:rgb(32,24,123);
+  text-align: center;
+  letter-spacing: 3px;
+  line-height:35px;
 }
 
 
